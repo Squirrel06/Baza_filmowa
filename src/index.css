@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: center;
+}
+
+.navbar {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+#movie-logo {
+  width: 50px;
+  height: 60px;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  color: black;
+  background-color: #B0C4DE;
+  bottom: 0;
+}
+
+.search-section {
+  width: 60%;
+}
+
+.search-form {
+  width: 70%;
+  margin: 25px;
+  font-size: 18px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.login-button {
+  background-color: #E6E6FA;
+  width: 150px;
+  height: 50px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.navbar-logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #B0C4DE;
+}
+
+.film {
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  color: #E6E6FA;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+#film-image {
+  margin: 20px;
+}
