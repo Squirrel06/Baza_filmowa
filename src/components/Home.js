@@ -29,13 +29,13 @@ const films = [
   ]
 
   return (
-    <div className="home">
+    <div className="main">
       <div className='navbar-logo'>
         <Logo />
         <Navbar />
       </div>
       <div className='film-section'>
-        {films.map((film) => <Film imgPath={film.imgPath} title={film.title} descript={film.desc} />)}
+        {films.map((film) => <Film imgPath={film.imgPath} title={film.title} descript={film.desc} genre={film.genre} grade={film.grade} />)}
       </div>
     </div>
   );

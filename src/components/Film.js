@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Film = ({imgPath, title, descript, grade}) => {
+const Film = ({imgPath, title, descript, grade, genre}) => {
   return (
     <div className='film'>
       <div className='film-img'>
@@ -14,7 +14,11 @@ const Film = ({imgPath, title, descript, grade}) => {
           {descript}
         </div>
         <div className='film-grade'>
+        <img src={require('../assets/images/star.png')} alt="ikona oceny filmu" id='star-img'/>
           {grade}
+        </div>
+        <div className='film-genre'>
+            Gatunek:{genre}
         </div>
       </div>
     </div>

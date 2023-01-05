@@ -53,7 +53,7 @@ code {
   margin: 25px;
   font-size: 18px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .login {
@@ -64,10 +64,10 @@ code {
 
 .login-button {
   background-color: #E6E6FA;
-  width: 150px;
+  width: 200px;
   height: 50px;
-  margin: 25px;
-  border-radius: 10px;
+  margin: 15px;
+  border-radius: 50px;
 }
 
 .navbar-logo {
@@ -78,7 +78,7 @@ code {
 }
 
 .film {
-  width: 80%;
+  width: 90%;
   margin: auto;
   background-color: black;
   color: #E6E6FA;
@@ -88,8 +88,9 @@ code {
 
 .title {
   font-weight: bold;
-  font-size: 38px;
+  font-size: 40px;
 }
+
 
 #film-image {
   margin: 20px;
@@ -97,3 +98,162 @@ code {
   width: 20px;*/
 }
 
+#password-content {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+#login-content {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+#email-content {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+#name-content {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+.login-form-container {
+  width: 100%;
+  height: 100%;
+}
+
+.signup-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.login-form {
+  background-color: black;
+  color: white;
+}
+
+.signin-button {
+  background-color: #B0C4DE;
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main-text {
+  color: #B0C4DE;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-button {
+  background-color: #B0C4DE;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-route {
+  color: white;
+  font-size: 15px;
+}
+
+#img-fill {
+  width: 100%;
+  height: 100%;
+}
+
+.add-movie-container {
+  width: 100%;
+  height: 100%;
+}
+
+.add-movie-content {
+  width: 100%;
+  height: 1080px;
+  background-image: url('https://wallpaper.dog/large/20493446.jpg');
+}
+
+.add-movie-content-form {
+  overflow: auto;
+  background-color: #CCCCCC;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.add-movie-content {
+  overflow: auto;
+}
+
+.movie-form-content {
+  border: #20292F solid 2px;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.movie-form-group {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.add-movie-btn {
+  background-color: goldenrod;
+  border-radius: 20px;
+  width: 125px;
+  height: 50px;
+  margin: 70px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#title-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#desc-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+#genre-content {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+}
+#star-img {
+  width: 14px;
+  height: 14px;
+}

@@ -1,10 +1,11 @@
 import './App.css';
-import {Router, Routes, Route, BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Router} from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import AddFilm from './components/AddFilm';
-import Login from './components/Login';
 import Signup from './components/Signup';
+import Login from './components/Login';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/signin" element={<Login />} />
-                    <Route path="/signup" element={<Signup />} />
-                    <Route path="/add" element={<AddFilm />} />
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/signup' element={<Signup/>}/>
+                    <Route path='/signin' element={<Login/>}/>
+                    <Route path='/add' element={<AddFilm/>}/>
+                    <Route path='/details/:id' element={<AddFilm />} />
                 </Routes>
-                <Footer />
+                <Footer/>
             </BrowserRouter>
         </div>
     );
