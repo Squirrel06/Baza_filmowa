@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 .App {
@@ -40,7 +40,7 @@ code {
   width: 100%;
   height: 30px;
   color: black;
-  background-color: #B0C4DE;
+  background-color: #b0c4de;
   bottom: 0;
 }
 
@@ -63,7 +63,7 @@ code {
 }
 
 .login-button {
-  background-color: #E6E6FA;
+  background-color: #e6e6fa;
   width: 200px;
   height: 50px;
   margin: 15px;
@@ -74,14 +74,17 @@ code {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #B0C4DE;
+  background-color: #b0c4de;
+}
+.film-main {
+  width: 100%;
 }
 
 .film {
-  width: 90%;
+  min-width: 80vw;
   margin: auto;
   background-color: black;
-  color: #E6E6FA;
+  color: #e6e6fa;
   display: flex;
   flex-direction: row;
 }
@@ -90,7 +93,6 @@ code {
   font-weight: bold;
   font-size: 40px;
 }
-
 
 #film-image {
   margin: 20px;
@@ -143,7 +145,7 @@ code {
 }
 
 .signin-button {
-  background-color: #B0C4DE;
+  background-color: #b0c4de;
   border-radius: 50px;
   width: 150px;
   height: 40px;
@@ -154,7 +156,7 @@ code {
 }
 
 #main-text {
-  color: #B0C4DE;
+  color: #b0c4de;
 }
 
 .img {
@@ -165,7 +167,7 @@ code {
 }
 
 .signup-button {
-  background-color: #B0C4DE;
+  background-color: #b0c4de;
   border-radius: 50px;
   width: 150px;
   height: 50px;
@@ -193,12 +195,12 @@ code {
 .add-movie-content {
   width: 100%;
   height: 1080px;
-  background-image: url('https://wallpaper.dog/large/20493446.jpg');
+  background-image: url("https://wallpaper.dog/large/20493446.jpg");
 }
 
 .add-movie-content-form {
   overflow: auto;
-  background-color: #CCCCCC;
+  background-color: #cccccc;
   width: 70%;
   height: 70%;
   margin: auto;
@@ -210,7 +212,7 @@ code {
 }
 
 .movie-form-content {
-  border: #20292F solid 2px;
+  border: #20292f solid 2px;
   width: 80%;
   height: 80%;
   margin: auto;
